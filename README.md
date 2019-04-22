@@ -1,2 +1,2 @@
 # React
-React Projects
+**HighOnCoding** Recreation of the HighOnCoding website using React
