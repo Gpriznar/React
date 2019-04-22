@@ -1,0 +1,18 @@
+.reviewbox {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  text-align: left;
+}
+
+.reviewtitle {
+  color: blue;
+  font-size: 20px;
+}
+
+.reviewmedia {
+  background-color: orange;
+  color: white;
+  padding: 3px;
+  font-weight: bold;
+}

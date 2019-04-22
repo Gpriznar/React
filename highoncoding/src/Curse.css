@@ -1,0 +1,18 @@
+.cursetitle {
+  font-size: 32px;
+}
+
+.cursebody {
+  font-size: 12px;
+
+}
+
+.cursebox {
+  background-color: lightgrey;
+  background-color: lightgrey;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
