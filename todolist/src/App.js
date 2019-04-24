@@ -34,9 +34,11 @@ export class App extends Component {
   }
 
   removeTask = (name) => {
+    console.log("removeTask in App.js")
+    console.log(name)
 
     this.setState({
-      completedtasks: this.state.completedtasks.filter((item) => item !=name)
+      tasks: this.state.tasks.filter((item) => item !=name)
     })
   }
 
@@ -48,9 +50,8 @@ export class App extends Component {
       <input className="addinput" onChange={this.handleTextChange} type="text" />
       <button className ="addbutton" onClick={this.handleAddClick}>Add Task</button>
       <h1 className="newtasktitle">New Tasks:</h1>
-      <NewTask tasks = {this.state.tasks} handleRemoveClick={this.removeTask}/>
+      <NewTask tasks = {this.state.tasks} removeTaskCallback={this.removeTask}/>
       <h1 className="newtasktitle">Completed Tasks:</h1>
-      <NewTask tasks = {this.state.completedtasks} handleRemoveClick={this.removeTask}/>
       </div>
     )
   }

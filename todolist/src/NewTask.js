@@ -4,7 +4,7 @@ import './App.css';
 export class NewTask extends Component {
 
     handleRemoveClick = (name) => {
-      this.props.handleRemoveClick(name)
+      this.props.removeTaskCallback(name)
     }
 
   render() {
