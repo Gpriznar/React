@@ -5,4 +5,4 @@
 
 **Bookstore:** This app allows a user to add books to a virtual bookshelf using React. Books are stored in an API which is hosted on a local server. 
 
-**Bookshelf:** Recreation of Bookstore using React Routes for the components.
+**Bookshelf:** Recreation of Bookstore using React Routes and Node.js for the backend.
