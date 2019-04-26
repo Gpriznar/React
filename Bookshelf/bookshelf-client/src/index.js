@@ -14,7 +14,7 @@ ReactDOM.render(
   <BaseLayout>
       <Switch>
 
-      <Route path="/" exact commponent={App} />
+      <Route path="/" exact component={App} />
       <Route path="/view-bookshelf" component={BookList} />
       <Route path='/add-book' component={AddBook} />
 

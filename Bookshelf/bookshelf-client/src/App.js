@@ -4,7 +4,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <h1>App.js - Home Page Image or Landing Text</h1>
+      <div>
+      <h1 className="welcometitle">Welcome to BookShelf!</h1>
+      <p className="welcomemessage">Add a book to get started!</p>
+      </div>
     )
   }
 

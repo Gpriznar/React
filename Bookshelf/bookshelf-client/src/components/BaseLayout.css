@@ -32,6 +32,12 @@
   color: #F8ECC2;
 }
 
-body {
-  background-image: url(https://cdnb.artstation.com/p/assets/images/images/002/868/989/medium/allan-bernardo-13392070-1325357557480517-4653509842494679556-o.jpg?1472412390);
+
+
+html {
+  background: url(https://cdnb.artstation.com/p/assets/images/images/002/868/989/medium/allan-bernardo-13392070-1325357557480517-4653509842494679556-o.jpg?1472412390) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
