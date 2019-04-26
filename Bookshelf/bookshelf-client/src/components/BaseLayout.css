@@ -1,0 +1,37 @@
+.menu {
+  list-style: none;
+  display: flex;
+  margin-left: 22%;
+  margin-right: 25%;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.menu li {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+
+.footer {
+  padding: 10px;
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: center;
+  color: white;
+
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #F8ECC2;
+}
+
+body {
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/002/868/989/medium/allan-bernardo-13392070-1325357557480517-4653509842494679556-o.jpg?1472412390);
+}

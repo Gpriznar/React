@@ -1,0 +1,31 @@
+.booklist {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+
+
+.ulbooklist {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.deletebutton {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.bookcoverimg {
+  height: 200px;
+  width: 135px;
+}
+
+.imagediv {
+  padding: 15px;
+}
